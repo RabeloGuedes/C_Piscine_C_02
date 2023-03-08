@@ -6,13 +6,13 @@
 /*   By: arabelo- <arabelo-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/07 08:48:27 by arabelo-          #+#    #+#             */
-/*   Updated: 2023/03/08 17:31:52 by arabelo-         ###   ########.fr       */
+/*   Updated: 2023/03/08 22:26:31 by arabelo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 char	*ft_strncpy(char *dest, char *src, unsigned int n)
 {
-	int	index;
+	unsigned int	index;
 
 	index = 0;
 	while (src[index] != '\0' && index < n)

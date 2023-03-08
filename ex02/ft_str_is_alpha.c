@@ -6,7 +6,7 @@
 /*   By: arabelo- <arabelo-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/07 09:35:42 by arabelo-          #+#    #+#             */
-/*   Updated: 2023/03/07 10:22:35 by arabelo-         ###   ########.fr       */
+/*   Updated: 2023/03/08 22:50:13 by arabelo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,8 @@ int	ft_str_is_alpha(char *str)
 	index = 0;
 	while (str[index] != '\0')
 	{
-		if (str[index] >= 'A' && str[index] <= 'Z'
-			|| str[index] >= 'a' && str[index] <= 'z')
+		if ((str[index] >= 'A' && str[index] <= 'Z')
+			|| (str[index] >= 'a' && str[index] <= 'z'))
 		{
 			index++;
 		}
