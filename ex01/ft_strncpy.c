@@ -6,7 +6,7 @@
 /*   By: arabelo- <arabelo-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/07 08:48:27 by arabelo-          #+#    #+#             */
-/*   Updated: 2023/03/07 09:34:05 by arabelo-         ###   ########.fr       */
+/*   Updated: 2023/03/08 17:31:52 by arabelo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,6 @@ char	*ft_strncpy(char *dest, char *src, unsigned int n)
 	{
 		dest[index] = '\0';
 		index++;
-		printf("%d\n", index);
 	}
 	return (dest);
 }
